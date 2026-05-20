@@ -1,0 +1,16 @@
+{
+  "name": "hf-turnstile-api",
+  "version": "1.0.0",
+  "description": "Turnstile + Cloudflare Solver API for Hugging Face Spaces",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "puppeteer": "^24.10.2",
+    "puppeteer-real-browser": "^1.4.3",
+    "puppeteer-screen-recorder": "^3.0.6"
+  }
+}
